@@ -2,54 +2,69 @@
 title: Mac 常用软件
 date: 2021-08-03 07:26:56
 tags:
+    - Mac
 ---
 
 
-## 聊天
+Mac 常用软件
 
-### QQ
+<!-- more -->
 
-[QQ](https://im.qq.com/download)
+## QQ
 
-### 微信
+QQ [https://im.qq.com/download](https://im.qq.com/download)
 
-[微信](https://mac.weixin.qq.com/?t=mac&lang=zh_CN)
+## 微信
 
-### Git
+微信[https://mac.weixin.qq.com/?t=mac&lang=zh_CN](https://mac.weixin.qq.com/?t=mac&lang=zh_CN)
 
-[Git](https://git-scm.com/)
+## SwitchHosts  GitHub520
 
-### brew
+SwitchHosts [https://hub.fastgit.org/oldj/SwitchHosts/releases](https://github.com/oldj/SwitchHosts/releases)
 
-一键安装
+GitHub520 [https://hub.fastgit.org/521xueweihan/GitHub520](https://hub.fastgit.org/521xueweihan/GitHub520)
+
+没有什么比梯子更好用的
+
+## brew
+
+HomeBrew[https://brew.sh/index_zh-cn](https://brew.sh/index_zh-cn)
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-国内由于网络问题，安装脚本无法下载， 解决方法如下
+## oh my zsh
 
-1. 下载安装脚本
-
-```bash
-curl https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh -o homebrew-install.sh
-```
-
-2. 编辑 homebrew-install.sh 文件，修改 `https://github.com` 为 `https://hub.fastgit.org
-`
-3. 添加可执行权限 
+oh my zsh [https://hub.fastgit.org/ohmyzsh/ohmyzsh](https://hub.fastgit.org/ohmyzsh/ohmyzsh)
 
 ```bash
-chmod +x homebrew-install.sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-4. 安装
+
+## nvm
+
+nvm [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm) 
 
 ```bash
-./homebrew-install.sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
-### VMware Fusion
+
+
+
+## Git
+
+[Git](https://git-scm.com/) 
+
+```bash
+brew install git
+```
+
+
+
+## VMware Fusion
 
 完整地虚拟机有时候还是非常有用地
 
@@ -63,15 +78,14 @@ YF390-0HF8P-M81RQ-2DXQE-M2UT6
 ZF71R-DMX85-08DQY-8YMNC-PPHV8
 ```
 
-### Qv2ray
+## Qv2ray
 
 [Qv2ray](https://hub.fastgit.org/Qv2ray/Qv2ray/releases)
 [V2ray Core](https://hub.fastgit.org/v2fly/v2ray-core/releases)
 
 
-体验了两天 黑苹果 不由感叹 
 
-Win 真香
+**太难了！！！**
 
 
 
