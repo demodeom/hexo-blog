@@ -1,9 +1,9 @@
 ---
 title: Ubuntu Server安装 VirtualBox 增强功能
 date: 2021-07-08 18:46:43
-tags: 
-	- Ubuntu 
-	- VirtualBox
+tags:
+    - Ubuntu 
+    - VirtualBox
 ---
 
 
