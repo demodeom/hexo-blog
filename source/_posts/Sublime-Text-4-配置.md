@@ -13,7 +13,7 @@ Sublime Text 4 配置
 ```json
 {
     // 设置编辑区域字体大小
-    "font_size": 20,
+    "font_size": 19,
     // 将 tab 转换为 空格
     "translate_tabs_to_spaces": true,
     // 设置 tab 长度为 四个空格
@@ -26,8 +26,15 @@ Sublime Text 4 配置
     "save_on_focus_lost": true,
     // 显示文件编码
     "show_encoding": true,
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    // 保存是删除多余空白
+    "trim_trailing_white_space_on_save": "not_on_caret",
 }
 ```
+
 
 ## PHP
 
