@@ -109,6 +109,7 @@ winget install Mozilla.Firefox --rainbow
 - Infinity新标签页(Pro)
 - uBlock Origin
 - 划词翻译 作者： Mica
+- Gesturefy 作者： Robbendebiene
 
 ## Google Chrome
 
