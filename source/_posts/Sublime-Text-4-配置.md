@@ -12,26 +12,24 @@ Sublime Text 4 配置
 
 ```json
 {
-    // 设置编辑区域字体大小
-    "font_size": 19,
-    // 将 tab 转换为 空格
-    "translate_tabs_to_spaces": true,
-    // 设置 tab 长度为 四个空格
-    "tab_size": 4,
-    // 设置行顶部距离
-    "line_padding_top": 3,
-    // 设置行底部距离
-    "line_padding_bottom": 3,
-    // 自动保存
-    "save_on_focus_lost": true,
-    // 显示文件编码
-    "show_encoding": true,
-    "ignored_packages":
-    [
-        "Vintage",
-    ],
-    // 保存是删除多余空白
-    "trim_trailing_white_space_on_save": "not_on_caret",
+
+    "font_size": 20,  // 设置编辑区域字体大小
+
+    "translate_tabs_to_spaces": true,  // 将 tab 转换为 空格
+
+    "tab_size": 4,  // 设置 tab 长度为 四个空格
+
+    "line_padding_top": 3,  // 设置行顶部距离
+
+    "line_padding_bottom": 3,  // 设置行底部距离
+
+    "save_on_focus_lost": true,  // 自动保存
+
+    "show_encoding": true,  // 显示文件编码
+
+    "preview_on_click": "only_left",
+
+    "trim_trailing_white_space_on_save": "not_on_caret",  // 保存时，删除多余空白
 }
 ```
 
